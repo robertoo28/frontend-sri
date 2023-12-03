@@ -1,0 +1,12 @@
+/* CSS de app */
+
+.main_container {
+  
+}
+
+.sri_form {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 2em;
+}
