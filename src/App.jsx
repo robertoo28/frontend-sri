@@ -45,7 +45,7 @@ function App() {
           <input type="number" className='cedula_input' onInput={ manejarCambio }/>
           <button className='enviar_button' type='submit'>Enviar</button>
           { contribuyente ? <span>Es Contribuyente</span> : <span>No es Contribuyente</span> }
-          { puntos ? <span>{puntos}</span> : <span>No tiene licencia</span> }
+          { puntos ? <span>{"Puntos : "+ puntos}</span> : <span>No tiene licencia</span> }
         </form>
       </div>
     </>
